@@ -1,4 +1,4 @@
-a = [1,2,2,1,3,4,2,1,2,1]
+a = [1,2,2,1,3,4,2,1,2,1, 2]
 max =0
 num  =0
 for i in set(a):
@@ -16,5 +16,6 @@ for j in a:
 nmax =0
 for key, value in d.items():
     if value>nmax:
-        nmax = key
-print(nmax, d[nmax])
+        nmax = value
+        id  = key
+print(nmax, id)

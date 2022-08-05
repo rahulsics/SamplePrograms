@@ -9,5 +9,5 @@ def fib(n):
 
 
 for i in range(s):
-    print(fib(i), end ='--')
+    print(fib(i), end ='\n')
 

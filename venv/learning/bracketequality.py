@@ -1,5 +1,5 @@
 from datetime import time
-s = "[{{21}(3{()}3)}11{}]"
+s = "][{{21}(3{()}3)}11{}]"
 
 
 def check(s):

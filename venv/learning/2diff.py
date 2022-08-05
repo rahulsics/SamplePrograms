@@ -5,11 +5,9 @@ def findPair(A, diff):
     # do for every element in the list
     for i in A:
         # check if pair with the given difference `(i, i-diff)` exists
-        if i - diff in s:
-            print((i, i - diff))
+        if abs(i - diff) in s:
+            print((i, abs(i - diff)))
         # check if pair with the given difference `(i + diff, i)` exists
-        if i + diff in s:
-            print((i + diff, i))
         # insert the current element into the set
         s.add(i)
 

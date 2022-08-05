@@ -4,7 +4,7 @@ def printPairs(arr, sum):
     for i, val in enumerate(arr):
         diff = sum- val
         if diff in d:
-            return [d[diff], i]
+            print([d[diff], i])
         d[val] =i
     return []
 
@@ -13,7 +13,7 @@ def printPairs(arr, sum):
 A = [1, 4, 45, 6, 10, 8]
 n = 16
 li = printPairs(A, n)
-print(li)
+#print(li)
 s = set()
 # do for every element in the list
 for i in A:
